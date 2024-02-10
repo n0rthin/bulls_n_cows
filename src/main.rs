@@ -3,7 +3,6 @@ use rand::Rng;
 
 fn main() {
     let secret_number: String = rand::thread_rng().gen_range(1000..=9999).to_string();
-    // println!("secret_number: {secret_number}");
     let mut bulls;
     let mut cows;
 
